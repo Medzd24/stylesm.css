@@ -1,0 +1,48 @@
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 10px;
+  }
+  
+  .rectangle {
+    background-color: transparent;
+    box-shadow: 5px 5px 10px #888888;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .text {
+    font-size: 4%; /* استخدم نسبة مئوية لحجم الخط بدلاً من قيمة ثابتة */
+    color: Black;
+  }
+
+  
+  
+ .blink-red {
+  animation: blink 1s infinite alternate; /* تأثير الوميض مستمر */
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0; /* النقطة مخفية */
+  }
+  100% {
+    opacity: 1; /* النقطة مرئية */
+  }
+}
+
+
+
+  
+  
+  @keyframes blink {
+    0% {
+      opacity: 0; /* النقطة مخفية */
+    }
+    100% {
+      opacity: 1; /* النقطة مرئية */
+    }
+  }
